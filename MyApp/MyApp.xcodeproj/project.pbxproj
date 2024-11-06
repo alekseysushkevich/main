@@ -3,64 +3,79 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 70;
+	objectVersion = 77;
 	objects = {
 
 /* Begin PBXContainerItemProxy section */
-		FB7E03852CDBA4D800C91013 /* PBXContainerItemProxy */ = {
+		FB04DA012CDBC32E0079A8DD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = FB7E03622CDBA4D500C91013 /* Project object */;
+			containerPortal = FB04D9DE2CDBC32B0079A8DD /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = FB7E03692CDBA4D500C91013;
-			remoteInfo = task1;
+			remoteGlobalIDString = FB04D9E52CDBC32B0079A8DD;
+			remoteInfo = MyApp;
 		};
-		FB7E038F2CDBA4D800C91013 /* PBXContainerItemProxy */ = {
+		FB04DA0B2CDBC32E0079A8DD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = FB7E03622CDBA4D500C91013 /* Project object */;
+			containerPortal = FB04D9DE2CDBC32B0079A8DD /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = FB7E03692CDBA4D500C91013;
-			remoteInfo = task1;
+			remoteGlobalIDString = FB04D9E52CDBC32B0079A8DD;
+			remoteInfo = MyApp;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		FB7E036A2CDBA4D500C91013 /* task1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = task1.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		FB7E03842CDBA4D800C91013 /* task1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = task1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		FB7E038E2CDBA4D800C91013 /* task1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = task1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB04D9E62CDBC32B0079A8DD /* MyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB04DA002CDBC32E0079A8DD /* MyAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB04DA0A2CDBC32E0079A8DD /* MyAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		FB7E03962CDBA4D800C91013 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+		FB04DA122CDBC32E0079A8DD /* Exceptions for "MyApp" folder in "MyApp" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
 			);
-			target = FB7E03692CDBA4D500C91013 /* task1 */;
+			target = FB04D9E52CDBC32B0079A8DD /* MyApp */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		FB7E036C2CDBA4D500C91013 /* task1 */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (FB7E03962CDBA4D800C91013 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = task1; sourceTree = "<group>"; };
-		FB7E03872CDBA4D800C91013 /* task1Tests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = task1Tests; sourceTree = "<group>"; };
-		FB7E03912CDBA4D800C91013 /* task1UITests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = task1UITests; sourceTree = "<group>"; };
+		FB04D9E82CDBC32B0079A8DD /* MyApp */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				FB04DA122CDBC32E0079A8DD /* Exceptions for "MyApp" folder in "MyApp" target */,
+			);
+			path = MyApp;
+			sourceTree = "<group>";
+		};
+		FB04DA032CDBC32E0079A8DD /* MyAppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MyAppTests;
+			sourceTree = "<group>";
+		};
+		FB04DA0D2CDBC32E0079A8DD /* MyAppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MyAppUITests;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		FB7E03672CDBA4D500C91013 /* Frameworks */ = {
+		FB04D9E32CDBC32B0079A8DD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FB7E03812CDBA4D800C91013 /* Frameworks */ = {
+		FB04D9FD2CDBC32E0079A8DD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FB7E038B2CDBA4D800C91013 /* Frameworks */ = {
+		FB04DA072CDBC32E0079A8DD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -70,22 +85,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		FB7E03612CDBA4D500C91013 = {
+		FB04D9DD2CDBC32B0079A8DD = {
 			isa = PBXGroup;
 			children = (
-				FB7E036C2CDBA4D500C91013 /* task1 */,
-				FB7E03872CDBA4D800C91013 /* task1Tests */,
-				FB7E03912CDBA4D800C91013 /* task1UITests */,
-				FB7E036B2CDBA4D500C91013 /* Products */,
+				FB04D9E82CDBC32B0079A8DD /* MyApp */,
+				FB04DA032CDBC32E0079A8DD /* MyAppTests */,
+				FB04DA0D2CDBC32E0079A8DD /* MyAppUITests */,
+				FB04D9E72CDBC32B0079A8DD /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		FB7E036B2CDBA4D500C91013 /* Products */ = {
+		FB04D9E72CDBC32B0079A8DD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FB7E036A2CDBA4D500C91013 /* task1.app */,
-				FB7E03842CDBA4D800C91013 /* task1Tests.xctest */,
-				FB7E038E2CDBA4D800C91013 /* task1UITests.xctest */,
+				FB04D9E62CDBC32B0079A8DD /* MyApp.app */,
+				FB04DA002CDBC32E0079A8DD /* MyAppTests.xctest */,
+				FB04DA0A2CDBC32E0079A8DD /* MyAppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -93,134 +108,134 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FB7E03692CDBA4D500C91013 /* task1 */ = {
+		FB04D9E52CDBC32B0079A8DD /* MyApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FB7E03972CDBA4D800C91013 /* Build configuration list for PBXNativeTarget "task1" */;
+			buildConfigurationList = FB04DA132CDBC32E0079A8DD /* Build configuration list for PBXNativeTarget "MyApp" */;
 			buildPhases = (
-				FB7E03662CDBA4D500C91013 /* Sources */,
-				FB7E03672CDBA4D500C91013 /* Frameworks */,
-				FB7E03682CDBA4D500C91013 /* Resources */,
+				FB04D9E22CDBC32B0079A8DD /* Sources */,
+				FB04D9E32CDBC32B0079A8DD /* Frameworks */,
+				FB04D9E42CDBC32B0079A8DD /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				FB7E036C2CDBA4D500C91013 /* task1 */,
+				FB04D9E82CDBC32B0079A8DD /* MyApp */,
 			);
-			name = task1;
+			name = MyApp;
 			packageProductDependencies = (
 			);
-			productName = task1;
-			productReference = FB7E036A2CDBA4D500C91013 /* task1.app */;
+			productName = MyApp;
+			productReference = FB04D9E62CDBC32B0079A8DD /* MyApp.app */;
 			productType = "com.apple.product-type.application";
 		};
-		FB7E03832CDBA4D800C91013 /* task1Tests */ = {
+		FB04D9FF2CDBC32E0079A8DD /* MyAppTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FB7E039C2CDBA4D800C91013 /* Build configuration list for PBXNativeTarget "task1Tests" */;
+			buildConfigurationList = FB04DA182CDBC32E0079A8DD /* Build configuration list for PBXNativeTarget "MyAppTests" */;
 			buildPhases = (
-				FB7E03802CDBA4D800C91013 /* Sources */,
-				FB7E03812CDBA4D800C91013 /* Frameworks */,
-				FB7E03822CDBA4D800C91013 /* Resources */,
+				FB04D9FC2CDBC32E0079A8DD /* Sources */,
+				FB04D9FD2CDBC32E0079A8DD /* Frameworks */,
+				FB04D9FE2CDBC32E0079A8DD /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				FB7E03862CDBA4D800C91013 /* PBXTargetDependency */,
+				FB04DA022CDBC32E0079A8DD /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				FB7E03872CDBA4D800C91013 /* task1Tests */,
+				FB04DA032CDBC32E0079A8DD /* MyAppTests */,
 			);
-			name = task1Tests;
+			name = MyAppTests;
 			packageProductDependencies = (
 			);
-			productName = task1Tests;
-			productReference = FB7E03842CDBA4D800C91013 /* task1Tests.xctest */;
+			productName = MyAppTests;
+			productReference = FB04DA002CDBC32E0079A8DD /* MyAppTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		FB7E038D2CDBA4D800C91013 /* task1UITests */ = {
+		FB04DA092CDBC32E0079A8DD /* MyAppUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FB7E039F2CDBA4D800C91013 /* Build configuration list for PBXNativeTarget "task1UITests" */;
+			buildConfigurationList = FB04DA1B2CDBC32E0079A8DD /* Build configuration list for PBXNativeTarget "MyAppUITests" */;
 			buildPhases = (
-				FB7E038A2CDBA4D800C91013 /* Sources */,
-				FB7E038B2CDBA4D800C91013 /* Frameworks */,
-				FB7E038C2CDBA4D800C91013 /* Resources */,
+				FB04DA062CDBC32E0079A8DD /* Sources */,
+				FB04DA072CDBC32E0079A8DD /* Frameworks */,
+				FB04DA082CDBC32E0079A8DD /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				FB7E03902CDBA4D800C91013 /* PBXTargetDependency */,
+				FB04DA0C2CDBC32E0079A8DD /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				FB7E03912CDBA4D800C91013 /* task1UITests */,
+				FB04DA0D2CDBC32E0079A8DD /* MyAppUITests */,
 			);
-			name = task1UITests;
+			name = MyAppUITests;
 			packageProductDependencies = (
 			);
-			productName = task1UITests;
-			productReference = FB7E038E2CDBA4D800C91013 /* task1UITests.xctest */;
+			productName = MyAppUITests;
+			productReference = FB04DA0A2CDBC32E0079A8DD /* MyAppUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		FB7E03622CDBA4D500C91013 /* Project object */ = {
+		FB04D9DE2CDBC32B0079A8DD /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1610;
 				LastUpgradeCheck = 1610;
 				TargetAttributes = {
-					FB7E03692CDBA4D500C91013 = {
+					FB04D9E52CDBC32B0079A8DD = {
 						CreatedOnToolsVersion = 16.1;
 					};
-					FB7E03832CDBA4D800C91013 = {
+					FB04D9FF2CDBC32E0079A8DD = {
 						CreatedOnToolsVersion = 16.1;
-						TestTargetID = FB7E03692CDBA4D500C91013;
+						TestTargetID = FB04D9E52CDBC32B0079A8DD;
 					};
-					FB7E038D2CDBA4D800C91013 = {
+					FB04DA092CDBC32E0079A8DD = {
 						CreatedOnToolsVersion = 16.1;
-						TestTargetID = FB7E03692CDBA4D500C91013;
+						TestTargetID = FB04D9E52CDBC32B0079A8DD;
 					};
 				};
 			};
-			buildConfigurationList = FB7E03652CDBA4D500C91013 /* Build configuration list for PBXProject "task1" */;
-			compatibilityVersion = "Xcode 15.3";
+			buildConfigurationList = FB04D9E12CDBC32B0079A8DD /* Build configuration list for PBXProject "MyApp" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = FB7E03612CDBA4D500C91013;
+			mainGroup = FB04D9DD2CDBC32B0079A8DD;
 			minimizedProjectReferenceProxies = 1;
-			productRefGroup = FB7E036B2CDBA4D500C91013 /* Products */;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = FB04D9E72CDBC32B0079A8DD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FB7E03692CDBA4D500C91013 /* task1 */,
-				FB7E03832CDBA4D800C91013 /* task1Tests */,
-				FB7E038D2CDBA4D800C91013 /* task1UITests */,
+				FB04D9E52CDBC32B0079A8DD /* MyApp */,
+				FB04D9FF2CDBC32E0079A8DD /* MyAppTests */,
+				FB04DA092CDBC32E0079A8DD /* MyAppUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		FB7E03682CDBA4D500C91013 /* Resources */ = {
+		FB04D9E42CDBC32B0079A8DD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FB7E03822CDBA4D800C91013 /* Resources */ = {
+		FB04D9FE2CDBC32E0079A8DD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FB7E038C2CDBA4D800C91013 /* Resources */ = {
+		FB04DA082CDBC32E0079A8DD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -230,21 +245,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		FB7E03662CDBA4D500C91013 /* Sources */ = {
+		FB04D9E22CDBC32B0079A8DD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FB7E03802CDBA4D800C91013 /* Sources */ = {
+		FB04D9FC2CDBC32E0079A8DD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FB7E038A2CDBA4D800C91013 /* Sources */ = {
+		FB04DA062CDBC32E0079A8DD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -254,29 +269,29 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		FB7E03862CDBA4D800C91013 /* PBXTargetDependency */ = {
+		FB04DA022CDBC32E0079A8DD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = FB7E03692CDBA4D500C91013 /* task1 */;
-			targetProxy = FB7E03852CDBA4D800C91013 /* PBXContainerItemProxy */;
+			target = FB04D9E52CDBC32B0079A8DD /* MyApp */;
+			targetProxy = FB04DA012CDBC32E0079A8DD /* PBXContainerItemProxy */;
 		};
-		FB7E03902CDBA4D800C91013 /* PBXTargetDependency */ = {
+		FB04DA0C2CDBC32E0079A8DD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = FB7E03692CDBA4D500C91013 /* task1 */;
-			targetProxy = FB7E038F2CDBA4D800C91013 /* PBXContainerItemProxy */;
+			target = FB04D9E52CDBC32B0079A8DD /* MyApp */;
+			targetProxy = FB04DA0B2CDBC32E0079A8DD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		FB7E03982CDBA4D800C91013 /* Debug */ = {
+		FB04DA142CDBC32E0079A8DD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = task1/task1.entitlements;
+				CODE_SIGN_ENTITLEMENTS = MyApp/MyApp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = task1/Info.plist;
+				INFOPLIST_FILE = MyApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -288,7 +303,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.alekseysushkevich.task1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alekseysushkevich.MyApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -300,16 +315,16 @@
 			};
 			name = Debug;
 		};
-		FB7E03992CDBA4D800C91013 /* Release */ = {
+		FB04DA152CDBC32E0079A8DD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = task1/task1.entitlements;
+				CODE_SIGN_ENTITLEMENTS = MyApp/MyApp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = task1/Info.plist;
+				INFOPLIST_FILE = MyApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -321,7 +336,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.alekseysushkevich.task1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alekseysushkevich.MyApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -333,7 +348,7 @@
 			};
 			name = Release;
 		};
-		FB7E039A2CDBA4D800C91013 /* Debug */ = {
+		FB04DA162CDBC32E0079A8DD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -396,7 +411,7 @@
 			};
 			name = Debug;
 		};
-		FB7E039B2CDBA4D800C91013 /* Release */ = {
+		FB04DA172CDBC32E0079A8DD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -452,7 +467,7 @@
 			};
 			name = Release;
 		};
-		FB7E039D2CDBA4D800C91013 /* Debug */ = {
+		FB04DA192CDBC32E0079A8DD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -461,16 +476,16 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.alekseysushkevich.task1Tests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alekseysushkevich.MyAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/task1.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/task1";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MyApp";
 			};
 			name = Debug;
 		};
-		FB7E039E2CDBA4D800C91013 /* Release */ = {
+		FB04DA1A2CDBC32E0079A8DD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -479,87 +494,87 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.alekseysushkevich.task1Tests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alekseysushkevich.MyAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/task1.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/task1";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MyApp";
 			};
 			name = Release;
 		};
-		FB7E03A02CDBA4D800C91013 /* Debug */ = {
+		FB04DA1C2CDBC32E0079A8DD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.alekseysushkevich.task1UITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alekseysushkevich.MyAppUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = task1;
+				TEST_TARGET_NAME = MyApp;
 			};
 			name = Debug;
 		};
-		FB7E03A12CDBA4D800C91013 /* Release */ = {
+		FB04DA1D2CDBC32E0079A8DD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.alekseysushkevich.task1UITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alekseysushkevich.MyAppUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = task1;
+				TEST_TARGET_NAME = MyApp;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FB7E03652CDBA4D500C91013 /* Build configuration list for PBXProject "task1" */ = {
+		FB04D9E12CDBC32B0079A8DD /* Build configuration list for PBXProject "MyApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FB7E039A2CDBA4D800C91013 /* Debug */,
-				FB7E039B2CDBA4D800C91013 /* Release */,
+				FB04DA162CDBC32E0079A8DD /* Debug */,
+				FB04DA172CDBC32E0079A8DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FB7E03972CDBA4D800C91013 /* Build configuration list for PBXNativeTarget "task1" */ = {
+		FB04DA132CDBC32E0079A8DD /* Build configuration list for PBXNativeTarget "MyApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FB7E03982CDBA4D800C91013 /* Debug */,
-				FB7E03992CDBA4D800C91013 /* Release */,
+				FB04DA142CDBC32E0079A8DD /* Debug */,
+				FB04DA152CDBC32E0079A8DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FB7E039C2CDBA4D800C91013 /* Build configuration list for PBXNativeTarget "task1Tests" */ = {
+		FB04DA182CDBC32E0079A8DD /* Build configuration list for PBXNativeTarget "MyAppTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FB7E039D2CDBA4D800C91013 /* Debug */,
-				FB7E039E2CDBA4D800C91013 /* Release */,
+				FB04DA192CDBC32E0079A8DD /* Debug */,
+				FB04DA1A2CDBC32E0079A8DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FB7E039F2CDBA4D800C91013 /* Build configuration list for PBXNativeTarget "task1UITests" */ = {
+		FB04DA1B2CDBC32E0079A8DD /* Build configuration list for PBXNativeTarget "MyAppUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FB7E03A02CDBA4D800C91013 /* Debug */,
-				FB7E03A12CDBA4D800C91013 /* Release */,
+				FB04DA1C2CDBC32E0079A8DD /* Debug */,
+				FB04DA1D2CDBC32E0079A8DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = FB7E03622CDBA4D500C91013 /* Project object */;
+	rootObject = FB04D9DE2CDBC32B0079A8DD /* Project object */;
 }

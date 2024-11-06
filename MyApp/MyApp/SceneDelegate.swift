@@ -1,6 +1,6 @@
 //
 //  SceneDelegate.swift
-//  task1
+//  MyApp
 //
 //  Created by Алексей Сушкевич on 6.11.24.
 //
