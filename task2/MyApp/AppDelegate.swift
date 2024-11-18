@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  MyApp
 //
-//  Created by Алексей Сушкевич on 6.11.24.
+//  Created by Алексей Сушкевич on 12.11.24.
 //
 
 import UIKit
