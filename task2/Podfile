@@ -1,5 +1,0 @@
-platform :ios, '15.0' 
-
-target 'MyApp' do
-    pod 'KeychainSwift'
-  end
